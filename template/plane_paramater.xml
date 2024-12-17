@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ================================================================================================== -->
+<!-- | If you can't get the correct plane parameters                                                   |-->
+<!-- | Please refer to the following information to use the components 'Plane 3Pt' to reset the plane. |-->
+<!-- ================================================================================================== -->
+
+<!-- Updated on 10/28, 2024 -->
+
+<!-- ============================================== -->
+<!--  + + + + + + + + + + + | + + + + + + + + + + + -->
+<!--  +                   + | +         +         + -->
+<!--  +      planeO       + | + planeA  +  planeB + -->
+<!--  +                   + | +         +         + -->
+<!--  + + + + + + + + + + + | + + + + + + + + + + + -->
+<!-- ============================================== -->
+ 
+<DesignPlaneSet>
+
+    <plane name='planeO'>
+        <point name="center_point" x='107' y='819' z='-453'/>
+        <point name="xAxis" x='1122' y='808' z='-450'/>
+        <point name="yAxis" x='129' y='1322' z='-453'/>
+    </plane>
+
+    <plane name='planeA'>
+        <point name="center_point" x='107' y='819' z='-453'/>
+        <point name="xAxis" x='107' y='819' z='-453'/>
+        <point name="yAxis" x='107' y='819' z='-453'/>
+    </plane>
+
+    <plane name='planeB'>
+        <point name="center_point" x='739' y='802' z='-435'/>
+        <point name="xAxis" x='1323' y='795' z='-435'/>
+        <point name="yAxis" x='748' y='1394' z='-440'/>
+    </plane>
+
+</DesignPlaneSet>
